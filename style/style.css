@@ -1,0 +1,95 @@
+/*FONT*/
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("style\font\Poppins-Bold") format("ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("style\font\Poppins-Regular") format("ttf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins-Bold", sans-serif;
+    line-height: 1.3;
+}
+
+p, a {
+    font-family: "Poppins-Regular", sans-serif;
+    line-height: 1.5;
+}
+
+p.card-text {
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 11 pt;
+}
+
+/*BACKGROUDS*/
+div.col-md-4 {
+    background-color: rgb(255, 222, 242);
+    text-align: center;
+}
+
+div.col-md-8 {
+    background: linear-gradient(
+        to right,
+        rgb(255, 222, 242), rgb(230, 240, 255) 80%);
+}
+
+/*IMMAGINI*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 50%;
+}
+
+hr {
+    width: 200px;
+}
+
+/*TABELLA-ICONE CONTACT ME*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+
+th {
+    width: 50px;
+}
+
+/*LINKS*/
+a:link, a:visited, a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(251, 133, 204);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*CARDS*/
+
+
+/*FOOTER*/
+footer {
+    background: rgb(230, 240, 255);
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 20px;
+    height: 170px;
+    max-height: fit-content;
+}
+
