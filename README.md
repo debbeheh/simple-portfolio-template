@@ -1,7 +1,7 @@
 # simple-portfolio-template
 This is a simple portfolio template that can be used to show your own graphic works.
 
-<a href="https://debbeheh.github.io/simple-portfolio-template/" target="_blank"><h3>Simple Portfolio Template</h3></a>
+https://debbeheh.github.io/simple-portfolio-template/
 
 <p>
 <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/"  target="_blank">Template made with Bootstrap v. 4.6.1</a>
